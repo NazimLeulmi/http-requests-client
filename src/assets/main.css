@@ -1,0 +1,22 @@
+.url-section {
+  min-width: 100%;
+  padding: 18px;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  margin-bottom: 6px;
+  border-radius: 12px;
+}
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
+@media (min-width: 600px) {
+  .url-section {
+    min-width: 0;
+    flex: 1;
+    max-width: 1000px !important;
+  }
+}
